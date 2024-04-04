@@ -118,3 +118,35 @@ a {
     --alerts-error: #ff4747;
     --alerts-warning: #facc15;
 }
+
+.title {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #0cbaf1 0%, #e95ce9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 121%;
+    letter-spacing: -0.01em;
+    color: var(--greyscale-white);
+}
+
+.anim-show {
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.show {
+    opacity: 1;
+}
