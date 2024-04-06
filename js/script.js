@@ -1,3 +1,5 @@
+// Плавное появление блоков
+
 function onEntry(entry) {
   entry.forEach(change => {
     if (change.isIntersecting) {

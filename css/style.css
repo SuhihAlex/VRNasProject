@@ -873,3 +873,124 @@
     color: var(--greyscale-white);
     background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
 }
+
+/*====== TESTIMONIAL =====*/
+
+.testimonial {
+    padding-bottom: 100px;
+}
+
+.testimonial__block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 112px;
+    max-width: 1247px;
+    height: 1247px;
+    background-image: url(../img/testimonial/TESTIMONIAL.png);
+    background-repeat: no-repeat;
+}
+
+.testimonial__block-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial__avatar {
+    position: absolute;
+    top: 321px;
+    left: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    border-radius: 100%;
+    background-color: rgba(37, 37, 50, 0.6);
+    cursor: pointer;
+}
+
+.testimonial__avatar-two {
+    top: 259px;
+    left: 762px;
+}
+
+.testimonial__avatar-three {
+    top: 602px;
+    left: 1036px;
+}
+
+.testimonial__avatar-four {
+    top: 867px;
+    left: 576px;
+}
+
+.testimonial__avatar-five {
+    top: 916px;
+    left: 165px;
+}
+
+.testimonial__avatar-six {
+    top: 1091px;
+    left: 939px;
+}
+
+.testimonial__avatar:hover .testimonial__avatar-descr {
+    display: block;
+}
+
+.testimonial__avatar-descr {
+    position: absolute;
+    left: 100px;
+    display: none;
+    width: 297px;
+    background: rgba(37, 37, 50, 0.77);
+    padding: 18px 19px 13px 23px;
+    transform: skewY(10deg);
+    animation: fade .5s linear forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.avatar__descr {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    color: var(--greyscale-grey-2);
+}
+
+.avatar__pos {
+    position: relative;
+    padding-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    color: var(--greyscale-white);
+}
+
+.avatar__pos::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+}
+
+.avatar__pos span {
+    color: var(--greyscale-grey-2);
+}
