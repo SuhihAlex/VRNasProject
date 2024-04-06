@@ -142,11 +142,11 @@ a {
     color: var(--greyscale-white);
 }
 
-.anim-show {
+.block {
     opacity: 0;
-    transition: opacity 0.35s ease;
 }
 
-.show {
+.element-show {
     opacity: 1;
+    transition: opacity 1s;
 }
