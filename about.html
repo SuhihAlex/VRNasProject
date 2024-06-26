@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/setting.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>VRNas</title>
+</head>
+<body class="page__body">
+    <header class="header">
+        <div class="container header__block">
+            <a href="index.html" class="logo__link">
+                <img src="img/header/logo.svg" alt="Logo">
+            </a>
+            <nav>
+                <ul class="nav__list list-reset">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a  class="nav__link">About us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="error.html" class="nav__link">Service</a>
+                    </li>
+                    <li class="nav__item nav__item-dropdown">
+                        <a href="error.html" class="nav__link">Page<span class="arrow">&#9660;</span></a>
+                        <ul class="list-reset dropdown__list">
+                            <li class="dropdown__item">
+                                <a href="error.html" class="dropdown__link">Pricing Plan</a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a href="error.html" class="dropdown__link">Our Team</a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a href="error.html" class="dropdown__link">FAQ</a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a href="error.html" class="dropdown__link">Tems & Conditions</a>
+                            </li>
+                            <li class="dropdown__item">
+                                <a href="error.html" class="dropdown__link">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="error.html" class="nav__link">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="error.html" class="contact__btn">Contact us</a>
+        </div>
+    </header>
+    <main>
+        <section class="breadcrumbs">
+            <div class="container breadcrumbs__block">
+                <div class="breadcrumbs__block-title">
+                    <h1 class="breadcrumbs__title">About Us</h1>
+                    <nav class="breadcrumb__nav" aria-label="breadcrumb">
+                        <ul class="breadcrumb list-reset">
+                            <li class="breadcrumb__item breadcrumb__item-home"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb__item active" aria-current="page">About us</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container about__block">
+                <div class="about__block-left">
+                    <div class="about__block-title">
+                        <span class="title">About us</span>
+                        <h2 class="about__subtitle">Bringing Your Vision to Life: Learn About VRNas</h2>
+                    </div>
+                    <div class="about__block-descr">
+                        <p class="about__descr">
+                            VRNas is a leading provider of VR services for education, entertainment, architecture, and events. Our mission is to
+                            bring the power of virtual reality to everyone, allowing them to explore new worlds, learn in new ways, and experience
+                            events in a whole new light.<br>
+                            Our team consists of experienced VR developers, designers, and technicians who are passionate about VR and dedicated to
+                            delivering the highest quality work. We use the latest VR hardware and software to create immersive, interactive
+                            experiences that are tailored to your specific needs.<br>
+                            From initial consultation to final delivery, we are committed to providing exceptional customer service. Our goal is to
+                            ensure that you are completely satisfied with every aspect of your VR experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="about__block-right">
+                    <div class="about__img">
+                        <img src="img/about/about-img-sect.png" alt="Image">
+                    </div>
+                    <div class="hero__content-video about__content-video">
+                        <div class="hero__overlay" id="heroOverlay"></div>
+                        <video id="myVideo" poster="img/hero/video-img.png" width="196" height="127">
+                            <source src="other/coverr-a-senior-man-enthusiastically-looking-into-his-vr-headset-6270-1080p.mp4"
+                                type="video/mp4">
+                        </video>
+                        <button class="play__button" id="playPauseButton"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="choose-virtual">
+            <div class="container choose-virtual__block">
+                <div class="choose-virtual__block-title">
+                    <span class="title">WHY CHOOSE US</span>
+                    <h2 class="choose-virtual__subtitle">Empowering Your Virtual Reality Experience</h2>
+                </div>
+                <div class="choose__block">
+                    <div class="choose__block-card">
+                        <img src="img/choose/choose-img-1.svg" alt="1" class="choose__img">
+                        <div class="choose__card-content">
+                            <h4 class="choose__card-title">Expertise</h4>
+                            <p class="choose__card-descr">Our team consists of experienced VR developers, designers, and technicians who
+                                have a passion for VR and a commitment to
+                                delivering quality work and give the best service</p>
+                        </div>
+                    </div>
+                    <div class="choose__block-card">
+                        <img src="img/choose/choose-img-2.svg" alt="1" class="choose__img">
+                        <div class="choose__card-content">
+                            <h4 class="choose__card-title">Customization</h4>
+                            <p class="choose__card-descr">Every client is unique, and we believe every VR experience should be too.
+                                We'll work with you to create a customized
+                                solution that meets your specific needs and goals</p>
+                        </div>
+                    </div>
+                    <div class="choose__block-card">
+                        <img src="img/choose/choose-img-3.svg" alt="1" class="choose__img">
+                        <div class="choose__card-content">
+                            <h4 class="choose__card-title">Service</h4>
+                            <p class="choose__card-descr">We believe in providing exceptional customer service, from initial
+                                consultation to final delivery. Our goal is to ensure
+                                you're satisfied with every aspect of your VR experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="choose-needs">
+            <div class="container choose-content--block choose-content--block__needs">
+                <div class="choose-content--left choose-content--left__needs">
+                    <div class="choose-content--title">
+                        <span class="title">WHY CHOOSE US</span>
+                        <h2 class="service__subtitle">Why Choose Us for Your VR Needs</h2>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                Passionate and Experienced Team
+                                <span class="accordion__arrow">
+                                    <img src="img/arrow.svg" alt="Arrow">
+                                </span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>We are proud of our team of VR experts who are passionate about VR and dedicated to
+                                    delivering the highest quality work.
+                                    Our team consists of experienced VR developers, designers, and technicians who have a proven
+                                    track record of creating
+                                    immersive and engaging VR experiences.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                Customized Solutions
+                                <span class="accordion__arrow"><img src="img/arrow.svg" alt="Arrow"></span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>We are proud of our team of VR experts who are passionate about VR and dedicated to
+                                    delivering the highest quality work.
+                                    Our team consists of experienced VR developers, designers, and technicians who have a proven
+                                    track record of creating
+                                    immersive and engaging VR experiences.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                Exceptional Customer Service
+                                <span class="accordion__arrow"><img src="img/arrow.svg" alt="Arrow"></span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>We are proud of our team of VR experts who are passionate about VR and dedicated to
+                                    delivering the highest quality work.
+                                    Our team consists of experienced VR developers, designers, and technicians who have a proven
+                                    track record of creating
+                                    immersive and engaging VR experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choose-content--right choose-content--right__block">
+                    <div class="choose__block-img choose__block-img--needs">
+                        <div class="about__overlay choose-content--overlay"></div>
+                        <img src="img/choose/choose-need-img.png" alt="Images">
+                    </div>
+                    <div class="hero__content-video about-section__content-video choose-content--right__video">
+                        <div class="hero__overlay" id="aboutOverlay"></div>
+                        <video id="aboutVideo" poster="img/about/about-preview.png" width="130" height="88">
+                            <source src="other/coverr-a-senior-man-enthusiastically-looking-into-his-vr-headset-6270-1080p.mp4"
+                                type="video/mp4">
+                        </video>
+                        <button class="play__button" id="aboutPlayPauseButton"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team-section">
+            <div class="container">
+                <div class="team-section__block">
+                    <div class="team-section__block-title">
+                        <span class="title">OUR TEAM</span>
+                        <h2 class="team-section__subtitle">Our Professionals Team</h2>
+                    </div>
+                    <div class="team-section__block-profile">
+                        <div class="team-section__card">
+                            <a href="#" class="team-section__link">
+                                <div class="team-section__descr">
+                                    <h4 class="team-section__name">Bondan Prabowo</h4>
+                                    <p class="team-section__pos">CEO</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="team-section__card">
+                            <a href="#" class="team-section__link team-section__link-two">
+                                <div class="team-section__descr">
+                                    <h4 class="team-section__name">Bayu Aji</h4>
+                                    <p class="team-section__pos">VR Development</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="team-section__card">
+                            <a href="#" class="team-section__link team-section__link-three">
+                                <div class="team-section__descr">
+                                    <h4 class="team-section__name">Agung Brandon</h4>
+                                    <p class="team-section__pos">VR Artist</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="team-section__card">
+                            <a href="#" class="team-section__link team-section__link-four">
+                                <div class="team-section__descr">
+                                    <h4 class="team-section__name">Aril Laso</h4>
+                                    <p class="team-section__pos">UI / UX Designer</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="team-section__btn">See All</a>
+                </div>
+            </div>
+        </section>
+        <section class="partners-section about__partners-section">
+            <div class="container partners-section__block">
+                <div class="partners-section__block-title">
+                    <span class="title">Our Trusted Partners</span>
+                    <h2 class="partners-section__subtitle">Discover the Companies We Work With</h2>
+                </div>
+                <div class="partners-section__block-img">
+                    <img src="img/partners/partners-img.png" alt="Partners">
+                </div>
+            </div>
+        </section>
+        <section class="faq-section">
+            <div class="container faq-section__block">
+                <div class="faq-section__block-title">
+                    <span class="title">FAQ</span>
+                    <h2 class="faq-section__subtitle">Frequently Asked Questions</h2>
+                </div>
+                        <p class="faq-section__descr">
+                            At VRNas, we want to make sure that you have all the information you need to make informed decisions about our VR
+                            services. Here are some of the most common questions we receive:
+                        </p>
+                <div class="faq-section__accordion">
+                    <div class="faq-section__accordion-item">
+                        <button class="faq-section__accordion-header">
+                            What is virtual reality?
+                            <span class="faq-section__accordion__arrow">
+                                <img src="img/arrow.svg" alt="Arrow">
+                            </span>
+                        </button>
+                        <div class="faq-section__accordion-content">
+                            <p>Virtual reality (VR) is a technology that uses headsets or other devices to create a simulated environment. Users can
+                            interact with this environment as if it were real, allowing for immersive experiences in gaming, education, training,
+                            and more.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-section__accordion-item">
+                        <button class="faq-section__accordion-header">
+                            What types of VR services do you offer?
+                            <span class="faq-section__accordion__arrow"><img src="img/arrow.svg" alt="Arrow"></span>
+                        </button>
+                        <div class="faq-section__accordion-content">
+                            <p>We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the
+                                highest quality work.
+                                Our team consists of experienced VR developers, designers, and technicians who have a proven track
+                                record of creating
+                                immersive and engaging VR experiences.</p>
+                        </div>
+                    </div>
+                    <div class="faq-section__accordion-item">
+                        <button class="faq-section__accordion-header">
+                            How much does your VR services cost?
+                            <span class="faq-section__accordion__arrow"><img src="img/arrow.svg" alt="Arrow"></span>
+                        </button>
+                        <div class="faq-section__accordion-content">
+                            <p>We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the
+                                highest quality work.
+                                Our team consists of experienced VR developers, designers, and technicians who have a proven track
+                                record of creating
+                                immersive and engaging VR experiences.</p>
+                        </div>
+                    </div><div class="faq-section__accordion-item">
+                        <button class="faq-section__accordion-header">
+                            What equipment do I need to use your VR services?
+                            <span class="faq-section__accordion__arrow"><img src="img/arrow.svg" alt="Arrow"></span>
+                        </button>
+                        <div class="faq-section__accordion-content">
+                            <p>We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the
+                                highest quality work.
+                                Our team consists of experienced VR developers, designers, and technicians who have a proven track
+                                record of creating
+                                immersive and engaging VR experiences.</p>
+                        </div>
+                    </div>
+                    <div class="faq-section__accordion-item">
+                        <button class="faq-section__accordion-header">
+                            Can I try out your VR services before I commit?
+                            <span class="faq-section__accordion__arrow"><img src="img/arrow.svg" alt="Arrow"></span>
+                        </button>
+                        <div class="faq-section__accordion-content">
+                            <p>We are proud of our team of VR experts who are passionate about VR and dedicated to delivering the
+                                highest quality work.
+                                Our team consists of experienced VR developers, designers, and technicians who have a proven track
+                                record of creating
+                                immersive and engaging VR experiences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="article__sub">
+            <div class="container block">
+                <div class="article__sub-block">
+                    <h2 class="article__sub-title">
+                        Subscribe to our newsletter for latest updates
+                    </h2>
+                    <form class="article__sub-form" id="subscriptionForm">
+                        <div class="article__sub-form--address">
+                            <img src="img/message-icon.svg" alt="">
+                            <input type="email" class="article__input" id="email" name="email" required
+                                placeholder="Enter your email address">
+                        </div>
+                        <button class="article__sub-btn" type="submit">
+                            <img src="img/btn-email.svg" alt="Send">
+                        </button>
+                    </form>
+                    <div class="form__message" id="message"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__block">
+                <div class="footer__block-socials">
+                    <a href="#" class="footer__logo">
+                        <img src="img/footer/logo.svg" alt="Logo">
+                    </a>
+                    <div class="footer__block-socials--list">
+                        <ul class="footer__list list-reset">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <img src="img/footer/twitter.svg" alt="Twitter">
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <img src="img/footer/facebook.svg" alt="Facebook">
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <img src="img/footer/instagram.svg" alt="Instagram">
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">
+                                    <img src="img/footer/github.svg" alt="GitHub">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__block-navigation">
+                    <div class="footer__block-table--one">
+                        <h5 class="footer__table-title">Quicklinks</h5>
+                        <nav>
+                            <ul class="footer__table-list list-reset">
+                                <li class="footer__table-item">
+                                    <a href="index.html" class="footer__table-link">Home</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="error.html" class="footer__table-link">Pricing Plan</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="error.html" class="footer__table-link">Service</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="error.html" class="footer__table-link">Blog</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="error.html" class="footer__table-link">Our Team</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__block-table--two">
+                        <h5 class="footer__table-title">Support</h5>
+                        <nav>
+                            <ul class="footer__table-list list-reset">
+                                <li class="footer__table-item">
+                                    <a class="footer__table-link">About us</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="error.html" class="footer__table-link">Contact us</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="error.html" class="footer__table-link">FAQ</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="error.html" class="footer__table-link">Tems & Conditions</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="error.html" class="footer__table-link">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__block-table--three">
+                        <h5 class="footer__table-title">Need Help?</h5>
+                        <nav>
+                            <ul class="footer__table-list list-reset">
+                                <li class="footer__table-item">
+                                    <a href="#" class="footer__table-link footer__table-link--nav">Tanjung Sari Street
+                                        no.48, Pontianak City</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="email:support@VRNas.com"
+                                        class="footer__table-link footer__table-link--email">Support@VRNas.com</a>
+                                </li>
+                                <li class="footer__table-item">
+                                    <a href="tel:+1234567890" class="footer__table-link footer__table-link--tel">+123 456
+                                        7890</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <small>© Copyright 2023, All Rights Reserved</small>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js?v=1"></script>
+</body>
+</html>
